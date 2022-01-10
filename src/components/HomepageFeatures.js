@@ -49,10 +49,8 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
-
-export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
+/** 
+ * 
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
@@ -60,6 +58,11 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
+ */
+
+export default function HomepageFeatures() {
+  return (
+    <section className={styles.features}>
     </section>
   );
 }

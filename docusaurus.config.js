@@ -9,10 +9,10 @@ const config = {
   title: 'Build local-first software',
   tagline: 'Automerge is a library of data structures for building collaborative applications that work offline.',
   url: 'https://automerge.github.io/',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/docs/img/favicon.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'automerge', // Usually your GitHub org/user name.
   projectName: 'automerge', // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: 'Automerge',
         logo: {
           alt: 'Automerge logo',
-          src: '/docs/img/automerge.png',
+          src: 'img/automerge.png',
         },
         items: [
           {
